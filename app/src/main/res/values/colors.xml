@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="colorPrimary">#077187</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="colorPrimaryDark">#074F57</color>
+
+    <!-- Accent color of the app -->
+    <color name="colorAccent">#C2F970</color>
+
+    <color name="colorSecondary">#74A57F</color>
+
+    <color name="colorHeaderBackground">#092c80</color>
+
+    <color name="colorHeader">#98A6D4</color>
+
+    <color name="colorBackground">#F7EFE9</color>
+
+
+    <!--    &lt;!&ndash; Primary color of the app (shown in the app bar) &ndash;&gt;
+        <color name="colorPrimary">#2B3D4D</color>
+
+        &lt;!&ndash; Primary dark color of the app (shown in the status bar) &ndash;&gt;
+        <color name="colorPrimaryDark">#23303D</color>
+
+        &lt;!&ndash; Accent color of the app &ndash;&gt;
+        <color name="colorAccent">#10CAC9</color>
+
+        <color name="colorHeaderBackground">#092c80</color>
+
+        <color name="colorHeader">#e1e2e6</color>
+
+        <color name="colorBackground">#e3f0ff</color>-->
+
+    <color name="colorStatusGrey">#888888</color>
+
+    <color name="colorStatusGreen">#5cd656</color>
+
+    <color name="colorStatusOrange">#f2bb4e</color>
+
+    <color name="colorStatusRed">#ed5d53</color>
+</resources>

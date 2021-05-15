@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">Football Informant</string>
+
+    <!-- Text to display in the list when there are no matches [CHAR LIMIT=NONE] -->
+    <string name="no_matches">No matches found</string>
+
+    <!-- Text to display in the list when there is no internet connection [CHAR LIMIT=NONE] -->
+    <string name="no_connection">No internet connection</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">League Settings</string>
+
+    <!-- Strings For League Preference [CHAR LIMIT=30] -->
+    <string name="settings_league_label">League</string>
+    <string name="settings_league_key" translatable="false">league</string>
+    <string name="settings_league_default" translatable="false">2002</string>
+
+    <string-array name="league_array">
+        <item>Deutsche Bundesliga</item>
+        <item>English Premier League</item>
+    </string-array>
+
+    <string-array name="league_alias_array">
+        <item>2002</item>
+        <item>2021</item>
+    </string-array>
+
+    <!-- Strings For Matchday Preference [CHAR LIMIT=30] -->
+    <string name="settings_matchday_label">Matchday</string>
+    <string name="settings_matchday_key" translatable="false">matchday</string>
+    <string name="settings_matchday_default" translatable="false">1</string>
+
+    <string-array name="matchday_array">
+        <item>Matchday 1</item>
+        <item>Matchday 2</item>
+        <item>Matchday 3</item>
+        <item>Matchday 4</item>
+        <item>Matchday 5</item>
+        <item>Matchday 6</item>
+        <item>Matchday 7</item>
+        <item>Matchday 8</item>
+    </string-array>
+
+    <string-array name="matchday_alias_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+</resources>

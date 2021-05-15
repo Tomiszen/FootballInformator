@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <!--    <EditTextPreference
+            android:defaultValue="@string/settings_league_default"
+            android:inputType="numberDecimal"
+            android:key="@string/settings_league_key"
+            android:selectAllOnFocus="true"
+            android:title="@string/settings_league_label" />-->
+
+    <ListPreference
+        android:defaultValue="2002"
+        android:dialogTitle="@string/settings_league_label"
+        android:entries="@array/league_array"
+        android:entryValues="@array/league_alias_array"
+        android:key="@string/settings_league_key"
+        android:summary="%s"
+        android:title="@string/settings_league_label" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:dialogTitle="@string/settings_matchday_label"
+        android:entries="@array/matchday_array"
+        android:entryValues="@array/matchday_alias_array"
+        android:key="@string/settings_matchday_key"
+        android:summary="%s"
+        android:title="@string/settings_matchday_label" />
+</PreferenceScreen>
